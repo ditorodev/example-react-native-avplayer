@@ -46,7 +46,8 @@ const App: () => React$Node = () => {
               videoAspectRatio="16:9"
               source={{
                 uri:
-                  'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+                  // 'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+                  'http://dl5.webmfiles.org/big-buck-bunny_trailer.webm', // tsting webm
                 //'rtsp://admin:pass@192.168.1.43:554/Streaming/Channels/102', // camera rtsp tests
               }}
             />
